@@ -8,7 +8,7 @@ import (
 	disc "github.com/briannoyama/bvh/discreet"
 )
 
-const DIMENSIONS int = 3
+const DIMENSIONS int = 2
 
 type Orthotope struct {
 	Point [DIMENSIONS]int32
